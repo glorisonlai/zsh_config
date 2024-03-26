@@ -1,0 +1,6 @@
+Symlink ~/.zshrc to config folder
+
+```
+mv ~/.zshrc ~/.zshrc.bak
+ln -s ~/.config/zsh/zshrc ~/.zshrc
+``
